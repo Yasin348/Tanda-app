@@ -1,0 +1,28 @@
+# Fly.io configuration for Tanda Anchor Backend
+app = "tanda-anchor"
+primary_region = "mad"  # Madrid - closest to Spanish users
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT = "3001"
+  NODE_ENV = "production"
+  DATA_DIR = "/data"  # Persistent storage path
+
+[http_service]
+  internal_port = 3001
+  force_https = true
+  auto_stop_machines = false  # Keep always running (free tier allows this)
+  auto_start_machines = true
+  min_machines_running = 1
+
+# Persistent storage for users.json and stats.json
+[mounts]
+  source = "tanda_data"
+  destination = "/data"
+
+[[vm]]
+  memory = "256mb"
+  cpu_kind = "shared"
+  cpus = 1

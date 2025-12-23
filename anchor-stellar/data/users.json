@@ -1,0 +1,80 @@
+{
+  "keeta_aabicfrxlnpv5vn22bxb4ensuzvni55ydqepb6z4n7zqeyc2biyyfo76ycchnry": {
+    "publicKey": "keeta_aabicfrxlnpv5vn22bxb4ensuzvni55ydqepb6z4n7zqeyc2biyyfo76ycchnry",
+    "displayName": "Yasin",
+    "kycVerified": false,
+    "registeredAt": 1766336206817
+  },
+  "GB5M5OQ2FAL5FSW5JTE7BA52QLAO5BIPVHPMJPJJGVUCBHPLE7RUTQSL": {
+    "publicKey": "GB5M5OQ2FAL5FSW5JTE7BA52QLAO5BIPVHPMJPJJGVUCBHPLE7RUTQSL",
+    "displayName": "Carlos García",
+    "kycVerified": true,
+    "registeredAt": 1766403068414,
+    "totalTxSponsored": 0,
+    "totalXlmSpent": 0,
+    "kycVerifiedAt": 1766403068414,
+    "country": "ES"
+  },
+  "GCSEOQYE2HSU2T4TFY6QDGPMI3UAYZKKMTGWOG4AOPIJNKPDECQ3WXHR": {
+    "publicKey": "GCSEOQYE2HSU2T4TFY6QDGPMI3UAYZKKMTGWOG4AOPIJNKPDECQ3WXHR",
+    "displayName": "María López",
+    "kycVerified": true,
+    "registeredAt": 1766403068424,
+    "totalTxSponsored": 0,
+    "totalXlmSpent": 0,
+    "kycVerifiedAt": 1766403068424,
+    "country": "ES"
+  },
+  "GC235A6K4WAT7UWA65QEUIDNHG2WKUIJAALFF5BUQO7IY7Q53JMEFZXO": {
+    "publicKey": "GC235A6K4WAT7UWA65QEUIDNHG2WKUIJAALFF5BUQO7IY7Q53JMEFZXO",
+    "displayName": "Pedro Martínez",
+    "kycVerified": true,
+    "registeredAt": 1766403068432,
+    "totalTxSponsored": 0,
+    "totalXlmSpent": 0,
+    "kycVerifiedAt": 1766403068432,
+    "country": "ES"
+  },
+  "GA7QCPY3QPCYNFTDOGN2JCE3BB6A65DVSPDHO5TADAF6YX2V42UCHSOE": {
+    "publicKey": "GA7QCPY3QPCYNFTDOGN2JCE3BB6A65DVSPDHO5TADAF6YX2V42UCHSOE",
+    "displayName": "Ana Ruiz",
+    "kycVerified": true,
+    "registeredAt": 1766403118080,
+    "totalTxSponsored": 0,
+    "totalXlmSpent": 0,
+    "kycVerifiedAt": 1766403118080,
+    "country": "ES"
+  },
+  "GCK5IMZNJ7A7ESWPS74F4VLV3ONQEQMPGLMGVV23T7CULWIZCYJ7ROGE": {
+    "publicKey": "GCK5IMZNJ7A7ESWPS74F4VLV3ONQEQMPGLMGVV23T7CULWIZCYJ7ROGE",
+    "displayName": "Luis Fernández",
+    "kycVerified": true,
+    "registeredAt": 1766403118088,
+    "totalTxSponsored": 0,
+    "totalXlmSpent": 0,
+    "kycVerifiedAt": 1766403118088,
+    "country": "ES"
+  },
+  "GAT32HBJKTKWJZCTXHDRSXKDJ3OBWNB36NXYMZT3LE5LOQHOWDESWLXH": {
+    "publicKey": "GAT32HBJKTKWJZCTXHDRSXKDJ3OBWNB36NXYMZT3LE5LOQHOWDESWLXH",
+    "displayName": "Elena Torres",
+    "kycVerified": true,
+    "registeredAt": 1766403118094,
+    "totalTxSponsored": 0,
+    "totalXlmSpent": 0,
+    "kycVerifiedAt": 1766403118094,
+    "country": "ES"
+  },
+  "GAXP2X4WBB6SGAYHAK67S4FUAEEYOUFU6DUSDMTHLP72SKP53ESGPANR": {
+    "publicKey": "GAXP2X4WBB6SGAYHAK67S4FUAEEYOUFU6DUSDMTHLP72SKP53ESGPANR",
+    "displayName": "Yasin",
+    "kycVerified": false,
+    "registeredAt": 1766484683964,
+    "totalTxSponsored": 0,
+    "totalXlmSpent": 0,
+    "accountActivated": true,
+    "activationXlmSpent": 1,
+    "activationFeeEurc": 0.35,
+    "activationFeePaid": false
+  }
+}
