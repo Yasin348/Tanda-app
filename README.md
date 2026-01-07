@@ -12,7 +12,7 @@ Aplicacion de ahorro colaborativo (tandas/ROSCA) sobre **Stellar** con smart con
 ## Estructura del Proyecto
 
 ```
-├── tanda-app/          # Frontend React Native + Expo
+├── tanda-app/          # Frontend React Native + Expo (Web + iOS/Android)
 ├── anchor-stellar/     # Backend Node.js (Anchor server)
 ├── soroban-tanda/      # Smart contract Rust/Soroban
 └── .github/workflows/  # CI/CD
@@ -79,16 +79,16 @@ EURC_ISSUER=GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM
 ## Arquitectura
 
 ```
-┌─────────────┐     ┌─────────────┐     ┌─────────────────┐
-│  Mobile App │────>│   Anchor    │────>│ Soroban Contract│
-│  (Expo)     │     │   Server    │     │ (Stellar)       │
-└─────────────┘     └─────────────┘     └─────────────────┘
-       │                   │
-       v                   v
-┌─────────────┐     ┌─────────────┐
-│   Mykobo    │     │   Stellar   │
-│   (KYC)     │     │   Network   │
-└─────────────┘     └─────────────┘
+┌───────────────────────┐     ┌─────────────┐     ┌─────────────────┐
+│      Expo App         │────>│   Anchor    │────>│ Soroban Contract│
+│  (Web + iOS/Android)  │     │   Server    │     │    (Stellar)    │
+└───────────────────────┘     └─────────────┘     └─────────────────┘
+           │                         │
+           v                         v
+     ┌─────────────┐           ┌─────────────┐
+     │   Mykobo    │           │   Stellar   │
+     │    (KYC)    │           │   Network   │
+     └─────────────┘           └─────────────┘
 ```
 
 ## API Endpoints
