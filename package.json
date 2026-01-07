@@ -1,0 +1,13 @@
+{
+  "name": "tanda-digital",
+  "scripts": {
+    "prestart": "npx kill-port 8081 3001",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "frontend": "cd tanda-app && npx expo start --web --port 8081 --clear",
+    "backend": "cd anchor-stellar && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "kill-port": "^2.0.1"
+  }
+}

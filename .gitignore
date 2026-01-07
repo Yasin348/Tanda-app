@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment files (SECRETS!)
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+target/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/
+
+# Logs
+*.log

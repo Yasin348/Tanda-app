@@ -1,0 +1,12 @@
+{
+  "totalXlmSpent": 0,
+  "totalEurcCommissions": 0,
+  "totalTxSponsored": 0,
+  "operationCount": {},
+  "registeredUsers": 7,
+  "kycVerifiedUsers": 6,
+  "usersByCountry": {
+    "ES": 6
+  },
+  "lastUpdated": 1766484683965
+}
