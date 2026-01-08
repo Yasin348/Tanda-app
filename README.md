@@ -6,7 +6,7 @@ Aplicacion de ahorro colaborativo (tandas/ROSCA) sobre **Stellar** con smart con
 
 ## Demo
 
-- **Frontend**: https://tanda-app.fly.dev
+- **Frontend**: https://tanda-frontend.fly.dev
 - **Backend**: https://tanda-anchor.fly.dev
 
 ## Estructura del Proyecto
